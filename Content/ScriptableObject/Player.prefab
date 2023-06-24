@@ -1,0 +1,126 @@
+{
+	"ID": "4656701c4e13a19f867de8b3fb5c1831",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6339,
+	"Data": [
+	{
+		"ID": "a0d804cf4dfe8bd956d6bf9af0198ac9",
+		"TypeName": "FlaxEngine.EmptyActor",
+		"Name": "Player",
+		"Transform": {
+			"Translation": {
+				"X": 127.85308837890625,
+				"Y": 125.23251342773438,
+				"Z": 84.28427124023438
+			},
+			"Orientation": {
+				"X": 0.0,
+				"Y": 0.7071065902709961,
+				"Z": 0.0,
+				"W": -0.7071069478988648
+			}
+		},
+		"StaticFlags": 0
+	},
+	{
+		"ID": "41b8332842b549f632b82fa7375ad148",
+		"TypeName": "FlaxEngine.RigidBody",
+		"ParentID": "a0d804cf4dfe8bd956d6bf9af0198ac9",
+		"Name": "RigidBody",
+		"StaticFlags": 0,
+		"Mass": 883.4661865234375,
+		"MassScale": 12.0,
+		"UpdateMassWhenScaleChanges": true
+	},
+	{
+		"ID": "f5745f8b48512c3d082311a0022bf606",
+		"TypeName": "FlaxEngine.SphereCollider",
+		"ParentID": "41b8332842b549f632b82fa7375ad148",
+		"Name": "Egg",
+		"Transform": {
+			"Translation": {
+				"X": -25.579294204711915,
+				"Y": 0.0,
+				"Z": 0.0
+			}
+		},
+		"StaticFlags": 0,
+		"Center": {
+			"X": 29.0,
+			"Y": 4.0,
+			"Z": -1.0
+		},
+		"ContactOffset": 100.0,
+		"Radius": 26.0
+	},
+	{
+		"ID": "78b08ec142dd8ef9ee5a439aea73e28b",
+		"TypeName": "Game.TriggerHandler",
+		"ParentID": "f5745f8b48512c3d082311a0022bf606",
+		"V": {
+	"SceneManager": "279c32154f3733127b2634a8dfcfb6ac",
+	"clips": [
+		"d68ceda74571b2965f4fa8a51df972a3"
+	],
+	"AudioManager": "8b6083cc468fb46d3fc5d2b7e4ea91b3",
+	"PlayerHit": "5b7e6718495c1b256a39bba3fc13041b"
+}
+	},
+	{
+		"ID": "b2aea41447e59ac2d0e0ddbeedc831e9",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "f5745f8b48512c3d082311a0022bf606",
+		"Name": "angry bird",
+		"Transform": {
+			"Translation": {
+				"X": 59.51346206665039,
+				"Y": 0.0,
+				"Z": 0.000016666723240632565
+			},
+			"Scale": {
+				"X": 0.30000001192092898,
+				"Y": 0.30000001192092898,
+				"Z": 0.30000001192092898
+			}
+		},
+		"StaticFlags": 0,
+		"Model": "44e50f13498cd8cdea10449b1f808798",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	},
+	{
+		"ID": "25e69bb3440131ece07f89a0faeb7f71",
+		"TypeName": "FlaxEngine.SphereCollider",
+		"ParentID": "f5745f8b48512c3d082311a0022bf606",
+		"Name": "SphereCollider",
+		"Transform": {
+			"Translation": {
+				"X": 28.916921615600587,
+				"Y": 3.6480865478515627,
+				"Z": 0.00001551224704599008
+			},
+			"Scale": {
+				"X": 0.9737139344215393,
+				"Y": 1.0,
+				"Z": 1.0
+			}
+		},
+		"IsTrigger": true,
+		"Radius": 30.0
+	},
+	{
+		"ID": "e6702fc940d9ef70d6033f98fa4d3b7f",
+		"TypeName": "Game.BirdsManager",
+		"ParentID": "25e69bb3440131ece07f89a0faeb7f71",
+		"V": {}
+	}
+]
+}

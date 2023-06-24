@@ -1,0 +1,86 @@
+{
+	"ID": "672c65324c5b363ee203528902125e82",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6339,
+	"Data": [
+	{
+		"ID": "0c68964c40fffb9d59dd4c972c35ee8f",
+		"TypeName": "FlaxEngine.RigidBody",
+		"Name": "Egg",
+		"Transform": {
+			"Translation": {
+				"X": 215.66421508789063,
+				"Y": 84.31260681152344,
+				"Z": -256.8940734863281
+			},
+			"Scale": {
+				"X": 0.20000000298023225,
+				"Y": 0.20000000298023225,
+				"Z": 0.20000000298023225
+			}
+		},
+		"StaticFlags": 0,
+		"Mass": 405.62567138671877,
+		"MaxAngularVelocity": 5.0,
+		"MassScale": 12.0,
+		"UseCCD": true,
+		"UpdateMassWhenScaleChanges": true
+	},
+	{
+		"ID": "45410a57407eb96d4f2a58b275931d89",
+		"TypeName": "Game.GravityHandler",
+		"ParentID": "0c68964c40fffb9d59dd4c972c35ee8f",
+		"V": {
+	"rg": "0c68964c40fffb9d59dd4c972c35ee8f"
+}
+	},
+	{
+		"ID": "e8eb744a41bce936ba374f9cf3967719",
+		"TypeName": "FlaxEngine.MeshCollider",
+		"ParentID": "0c68964c40fffb9d59dd4c972c35ee8f",
+		"Name": "MeshCollider",
+		"CollisionData": "26c449fa43168487243c2994b04b0fa7"
+	},
+	{
+		"ID": "7f9af6d7419773102f3d24af83fcdaed",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "e8eb744a41bce936ba374f9cf3967719",
+		"Name": "Egg",
+		"Model": "b60ca24c423ef71ced31d1b0a44d4b26",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	},
+	{
+		"ID": "8f22040848e87f785d912687905ef54e",
+		"TypeName": "FlaxEngine.SphereCollider",
+		"ParentID": "7f9af6d7419773102f3d24af83fcdaed",
+		"Name": "SphereCollider",
+		"Transform": {
+			"Translation": {
+				"X": 0.0,
+				"Y": 105.59967041015625,
+				"Z": 0.0
+			}
+		},
+		"IsTrigger": true,
+		"Radius": 151.0
+	},
+	{
+		"ID": "a7864a2441fddd94825aa2b32ff27280",
+		"TypeName": "Game.EggTrigger",
+		"ParentID": "8f22040848e87f785d912687905ef54e",
+		"V": {
+	"rg": "0c68964c40fffb9d59dd4c972c35ee8f",
+	"_Trigger": "8f22040848e87f785d912687905ef54e"
+}
+	}
+]
+}

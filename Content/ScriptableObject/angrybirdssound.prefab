@@ -1,0 +1,16 @@
+{
+	"ID": "ffb0274f4d7c2813bf64b8a16629904d",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6339,
+	"Data": [
+	{
+		"ID": "df399eae41b13af92e8ceba5daabbe1d",
+		"TypeName": "FlaxEngine.AudioSource",
+		"ParentID": "00000000000000000000000000000000",
+		"Name": "angrybirdssound",
+		"Clip": "faf7c3354469a72fe245b78aaa5c32b2",
+		"Volume": 0.30000001192092898,
+		"PlayOnStart": true
+	}
+]
+}

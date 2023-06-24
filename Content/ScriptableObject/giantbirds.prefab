@@ -1,0 +1,131 @@
+{
+	"ID": "8ae2a5f7402daa91837a3199093e2ca4",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6339,
+	"Data": [
+	{
+		"ID": "a81cc9ee47ae43057b4522a01aa9c68a",
+		"PrefabID": "691b5caa4e2a886aa56c8a899f622ddf",
+		"PrefabObjectID": "162a2a2f4babe6e3827dcbbc5ed731c9",
+		"Name": "giantbirds",
+		"Transform": {
+			"Translation": {
+				"X": 207.53045654296876,
+				"Y": 125.23248291015625,
+				"Z": -165.41578674316407
+			},
+			"Orientation": {
+				"X": 0.0,
+				"Y": 0.7071065902709961,
+				"Z": 0.0,
+				"W": -0.7071069478988648
+			}
+		}
+	},
+	{
+		"ID": "6e265e034e39d0f87285c7a4d562279d",
+		"PrefabID": "691b5caa4e2a886aa56c8a899f622ddf",
+		"PrefabObjectID": "dccc46b74641eaa0da42b4a3c87cbafa",
+		"ParentID": "a81cc9ee47ae43057b4522a01aa9c68a",
+		"RemovedObjects": [
+			"e922a08147447b9d3fae62a1716966b5"
+		]
+	},
+	{
+		"ID": "3233b5f746e040dbd85d0489d6f9532d",
+		"PrefabID": "691b5caa4e2a886aa56c8a899f622ddf",
+		"PrefabObjectID": "4aee547045cbcce8ef2038a1252667f7",
+		"ParentID": "6e265e034e39d0f87285c7a4d562279d"
+	},
+	{
+		"ID": "093075e548a924c376fc4285478a7dbe",
+		"TypeName": "Game.AngryBirdsHitHandler",
+		"ParentID": "3233b5f746e040dbd85d0489d6f9532d",
+		"V": {
+	"_Trigger": "bdf936624cb62ac5b85e0384e1f4dbbb",
+	"rg": "6e265e034e39d0f87285c7a4d562279d",
+	"Trigger": "6ec4b8ba461057eed6ea63a126201fb7",
+	"clips": [
+		"9c19d8524788da43c85b46bf77a54f97",
+		"faf7c3354469a72fe245b78aaa5c32b2",
+		"eae80e5c408382540627d5b4713d1568"
+	],
+	"hitsaudio": [
+		"29940d664d0032b523b835ab0e848a14"
+	],
+	"_GameStartManager": "8b6083cc468fb46d3fc5d2b7e4ea91b3",
+	"_Souce": "cd96da934376d754d9c4caac06ddd9e2"
+}
+	},
+	{
+		"ID": "e83b456142dc8998fe727aa5f0791dfc",
+		"PrefabID": "691b5caa4e2a886aa56c8a899f622ddf",
+		"PrefabObjectID": "87178fd34499f7e8b88a43ad5fcd79e4",
+		"ParentID": "3233b5f746e040dbd85d0489d6f9532d",
+		"Buffer": {
+			"Entries": [
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		}
+	},
+	{
+		"ID": "bdf936624cb62ac5b85e0384e1f4dbbb",
+		"PrefabID": "691b5caa4e2a886aa56c8a899f622ddf",
+		"PrefabObjectID": "7461a24440d2dee34a27e08a5b1e01e2",
+		"ParentID": "3233b5f746e040dbd85d0489d6f9532d",
+		"Transform": {
+			"Translation": {
+				"X": 28.337156295776368,
+				"Y": 3.8394775390625,
+				"Z": 0.000015201236237771809
+			}
+		}
+	},
+	{
+		"ID": "8329e71749dfd00def25b58a85561ed9",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "3233b5f746e040dbd85d0489d6f9532d",
+		"Name": "T1PADOFHQZ9VW751EQNH9K3OW",
+		"Transform": {
+			"Translation": {
+				"X": 32.103519439697269,
+				"Y": 0.0,
+				"Z": -11.316678047180176
+			},
+			"Orientation": {
+				"X": 0.0,
+				"Y": 0.7071068286895752,
+				"Z": 0.0,
+				"W": 0.7071067094802856
+			},
+			"Scale": {
+				"X": 49.0,
+				"Y": 49.0,
+				"Z": 49.0
+			}
+		},
+		"StaticFlags": 0,
+		"Model": "fb81302745dd4a40caae8bb6131be7c7",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	},
+	{
+		"ID": "cd96da934376d754d9c4caac06ddd9e2",
+		"TypeName": "FlaxEngine.AudioSource",
+		"ParentID": "a81cc9ee47ae43057b4522a01aa9c68a",
+		"Name": "AudioSource"
+	}
+]
+}

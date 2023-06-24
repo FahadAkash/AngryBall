@@ -1,0 +1,134 @@
+{
+	"ID": "691b5caa4e2a886aa56c8a899f622ddf",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6339,
+	"Data": [
+	{
+		"ID": "162a2a2f4babe6e3827dcbbc5ed731c9",
+		"TypeName": "FlaxEngine.EmptyActor",
+		"Name": "angrybirds",
+		"Transform": {
+			"Translation": {
+				"X": -149.42251586914063,
+				"Y": 125.23248291015625,
+				"Z": -165.4155731201172
+			},
+			"Orientation": {
+				"X": 0.0,
+				"Y": 0.7071065902709961,
+				"Z": 0.0,
+				"W": -0.7071069478988648
+			}
+		},
+		"StaticFlags": 0
+	},
+	{
+		"ID": "dccc46b74641eaa0da42b4a3c87cbafa",
+		"TypeName": "FlaxEngine.RigidBody",
+		"ParentID": "162a2a2f4babe6e3827dcbbc5ed731c9",
+		"Name": "RigidBody",
+		"StaticFlags": 0,
+		"Mass": 883.4661865234375,
+		"MassScale": 12.0,
+		"UpdateMassWhenScaleChanges": true
+	},
+	{
+		"ID": "e922a08147447b9d3fae62a1716966b5",
+		"TypeName": "Game.AngryBirdsHitHandler",
+		"ParentID": "dccc46b74641eaa0da42b4a3c87cbafa",
+		"V": {
+	"_Trigger": "7461a24440d2dee34a27e08a5b1e01e2"
+}
+	},
+	{
+		"ID": "4aee547045cbcce8ef2038a1252667f7",
+		"TypeName": "FlaxEngine.SphereCollider",
+		"ParentID": "dccc46b74641eaa0da42b4a3c87cbafa",
+		"Name": "SphereCollider",
+		"Transform": {
+			"Translation": {
+				"X": -25.579294204711915,
+				"Y": 0.0,
+				"Z": 0.0
+			}
+		},
+		"StaticFlags": 0,
+		"Center": {
+			"X": 29.0,
+			"Y": 4.0,
+			"Z": -1.0
+		},
+		"ContactOffset": 100.0,
+		"Radius": 26.0
+	},
+	{
+		"ID": "87178fd34499f7e8b88a43ad5fcd79e4",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "4aee547045cbcce8ef2038a1252667f7",
+		"Name": "angry bird",
+		"Transform": {
+			"Translation": {
+				"X": 28.300697326660158,
+				"Y": 0.0,
+				"Z": 0.0
+			},
+			"Scale": {
+				"X": 1.399999976158142,
+				"Y": 1.399999976158142,
+				"Z": 1.399999976158142
+			}
+		},
+		"StaticFlags": 0,
+		"Model": "91d3604940c9e92c233f1ea0a421e92f",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	},
+	{
+		"ID": "7461a24440d2dee34a27e08a5b1e01e2",
+		"TypeName": "FlaxEngine.SphereCollider",
+		"ParentID": "4aee547045cbcce8ef2038a1252667f7",
+		"Name": "Trigger",
+		"Transform": {
+			"Translation": {
+				"X": 31.492338180541993,
+				"Y": 0.0,
+				"Z": 0.000016893807696760633
+			}
+		},
+		"IsTrigger": true,
+		"Radius": 30.0
+	}
+]
+}

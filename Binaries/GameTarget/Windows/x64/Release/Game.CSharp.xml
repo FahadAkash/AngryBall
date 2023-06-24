@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Game.CSharp</name>
+    </assembly>
+    <members>
+        <member name="T:Game.AngryBirdsHitHandler">
+            <summary>
+            AngryBirdsHitHandler Script.
+            </summary>
+        </member>
+        <member name="F:Game.AngryBirdsHitHandler._Trigger">
+            <inheritdoc/>
+            
+        </member>
+        <member name="T:Game.CameraLerp">
+            <summary>
+            CameraLerp Script.
+            </summary>
+        </member>
+        <member name="M:Game.CameraLerp.OnStart">
+            <inheritdoc/>
+        </member>
+        <member name="M:Game.CameraLerp.OnEnable">
+            <inheritdoc/>
+        </member>
+        <member name="M:Game.CameraLerp.OnDisable">
+            <inheritdoc/>
+        </member>
+        <member name="M:Game.CameraLerp.OnUpdate">
+            <inheritdoc/>
+        </member>
+        <member name="T:Game.EggTrigger">
+            <summary>
+            EggTrigger Script.
+            </summary>
+        </member>
+        <member name="T:Game.GravityHandler">
+            <summary>
+            GravityHandler Script.
+            </summary>
+        </member>
+        <member name="F:Game.GravityHandler.rg">
+            <inheritdoc/>
+            
+        </member>
+        <member name="M:Game.GravityHandler.OnEnable">
+            <inheritdoc/>
+        </member>
+        <member name="M:Game.GravityHandler.OnDisable">
+            <inheritdoc/>
+        </member>
+        <member name="M:Game.GravityHandler.OnUpdate">
+            <inheritdoc/>
+        </member>
+        <member name="T:Game.inputs">
+            <summary>
+            inputs Script.
+            </summary>
+            
+        </member>
+        <member name="F:Game.inputs.Speed">
+            <inheritdoc/>
+            
+        </member>
+        <member name="M:Game.inputs.OnEnable">
+            <inheritdoc/>
+        </member>
+        <member name="M:Game.inputs.OnDisable">
+            <inheritdoc/>
+        </member>
+        <member name="M:Game.inputs.OnUpdate">
+            <inheritdoc/>
+        </member>
+        <member name="T:Game.movement">
+            <summary>
+            movement Script.
+            </summary>
+        </member>
+        <member name="M:Game.movement.OnStart">
+            <inheritdoc/>
+        </member>
+        <member name="M:Game.movement.OnEnable">
+            <inheritdoc/>
+        </member>
+        <member name="M:Game.movement.OnDisable">
+            <inheritdoc/>
+        </member>
+        <member name="M:Game.movement.OnUpdate">
+            <inheritdoc/>
+        </member>
+        <member name="T:Game.RotateObject">
+            <summary>
+            RotateObject Script.
+            </summary>
+        </member>
+        <member name="F:Game.RotateObject.speed">
+            <inheritdoc/>
+            
+        </member>
+        <member name="M:Game.RotateObject.OnEnable">
+            <inheritdoc/>
+        </member>
+        <member name="M:Game.RotateObject.OnDisable">
+            <inheritdoc/>
+        </member>
+        <member name="M:Game.RotateObject.OnUpdate">
+            <inheritdoc/>
+        </member>
+        <member name="T:Game.SceneManager">
+            <summary>
+            SceneManager Script.
+            </summary>
+        </member>
+        <member name="T:Game.TriggerHandler">
+            <summary>
+            TriggerHandler Script.
+            </summary>
+        </member>
+        <member name="F:Game.TriggerHandler.clips">
+            <inheritdoc/>
+            
+        </member>
+    </members>
+</doc>
