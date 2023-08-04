@@ -311,7 +311,8 @@
 	"Speed": 0.1,
 	"angle": 6.0,
 	"Trigger": "6ec4b8ba461057eed6ea63a126201fb7"
-}
+},
+			"Enabled": false
 		},
 		{
 			"ID": "c65667d743279f84f88780bc31a9e9bc",
@@ -4494,6 +4495,25 @@
 			"Name": "UI"
 		},
 		{
+			"ID": "d1009f6b47ecba3840cd2f8ebaa474ec",
+			"TypeName": "Game.SceneManager",
+			"ParentID": "26395edc4b2fba2d5061b6a59fcfd796",
+			"V": {
+	"SceneReference": "a182b9f94eec0c54b20907b78779dae0",
+	"ThisScene": "fb2018964dacffe193f9ac90c4e47407"
+}
+		},
+		{
+			"ID": "94fb2da949c08f8d53652ea7cf5912c3",
+			"TypeName": "Game.MenuManager",
+			"ParentID": "26395edc4b2fba2d5061b6a59fcfd796",
+			"V": {
+	"sceneManager": "d1009f6b47ecba3840cd2f8ebaa474ec",
+	"Button": "700037b14048941e3404128160bc39a2",
+	"QuitButton": "9cf63eaf4d6fd0d9acab0aa25c74c943"
+}
+		},
+		{
 			"ID": "22c264ee40ac44c81cc1e2a120f93eff",
 			"TypeName": "FlaxEngine.UICanvas",
 			"ParentID": "26395edc4b2fba2d5061b6a59fcfd796",
@@ -4515,7 +4535,7 @@
 			"Name": "Button",
 			"Transform": {
 				"Translation": {
-					"X": 580.0,
+					"X": 544.0,
 					"Y": 253.0,
 					"Z": 0.0
 				}
@@ -4531,14 +4551,14 @@
 	"Text": "PLAY",
 	"Font": {
 		"Font": "4508d98f4aa1f0bd59362b81d47e38f4",
-		"Size": 11
+		"Size": 9
 	},
 	"TextMaterial": null,
 	"BackgroundBrush": null,
 	"BorderColor": {
-		"R": 0.360784322,
-		"G": 0.3374097,
-		"B": 0.3494725,
+		"R": 0.329411775,
+		"G": 0.329411775,
+		"B": 0.360784322,
 		"A": 1.0
 	},
 	"BackgroundColorSelected": {
@@ -4576,14 +4596,14 @@
 		"Y": 0.0
 	},
 	"Offsets": {
-		"Left": 580.0,
-		"Right": 120.0,
+		"Left": 544.0,
+		"Right": 144.0,
 		"Top": 253.0,
-		"Bottom": 24.0
+		"Bottom": 40.0
 	},
 	"Scale": {
-		"X": 2.0,
-		"Y": 2.0
+		"X": 1.0,
+		"Y": 1.0
 	},
 	"Pivot": {
 		"X": 0.5,
@@ -4612,8 +4632,8 @@
 			"Name": "Button 0",
 			"Transform": {
 				"Translation": {
-					"X": 580.0,
-					"Y": 327.0,
+					"X": 560.0,
+					"Y": 303.0,
 					"Z": 0.0
 				}
 			},
@@ -4628,14 +4648,14 @@
 	"Text": "QUIT",
 	"Font": {
 		"Font": "4508d98f4aa1f0bd59362b81d47e38f4",
-		"Size": 11
+		"Size": 9
 	},
 	"TextMaterial": null,
 	"BackgroundBrush": null,
 	"BorderColor": {
-		"R": 0.360784322,
-		"G": 0.3374097,
-		"B": 0.3494725,
+		"R": 0.329411775,
+		"G": 0.329411775,
+		"B": 0.360784322,
 		"A": 1.0
 	},
 	"BackgroundColorSelected": {
@@ -4673,14 +4693,14 @@
 		"Y": 0.0
 	},
 	"Offsets": {
-		"Left": 580.0,
-		"Right": 120.0,
-		"Top": 327.0,
-		"Bottom": 24.0
+		"Left": 560.0,
+		"Right": 113.0,
+		"Top": 303.0,
+		"Bottom": 33.0
 	},
 	"Scale": {
-		"X": 2.0,
-		"Y": 2.0
+		"X": 1.0,
+		"Y": 1.0
 	},
 	"Pivot": {
 		"X": 0.5,

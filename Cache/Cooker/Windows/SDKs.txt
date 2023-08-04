@@ -1,0 +1,8 @@
+DotNetSdk, 8.0.100.0, C:\Program Files\dotnet\
+AndroidNdk, missing
+AndroidSdk, 1.0, C:\Program Files (x86)\Android\android-sdk
+XCode, missing
+GDK, missing
+Windows SDK v10_0_19041_0, 10.0.19041.0, C:\Program Files (x86)\Windows Kits\10\
+Windows SDK v10_0_22000_0, 10.0.22000.0, C:\Program Files (x86)\Windows Kits\10\
+Windows Toolset v143, E:\GameDevelopment\visualsutdio\VC\Tools\MSVC\14.36.32532

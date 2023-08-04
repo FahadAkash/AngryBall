@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Runtime.Remoting.Metadata.W3cXsd2001;
 using FlaxEngine;
 using Game;
 using System.Threading.Tasks;
@@ -41,6 +40,7 @@ namespace Game
         {
             if (obj)
             {
+
                 
                 if (obj.FindScript<ObsticleTrigger>() != null)
                 {

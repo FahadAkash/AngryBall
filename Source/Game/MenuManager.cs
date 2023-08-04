@@ -3,20 +3,36 @@
 using System;
 using System.Collections.Generic;
 using FlaxEngine;
-
+using FlaxEngine.GUI;
 namespace Game
 {
     /// <summary>
     /// MenuManager Script.
     /// </summary>
+
+
     public class MenuManager : Script
     {
+    public int Index ;
+    public SceneManager sceneManager;
+  public UIControl Button;
+  public UIControl QuitButton;
         /// <inheritdoc/>
         public override void OnStart()
         {
-            // Here you can add code that needs to be called when script is created, just before the first game update
+           Button.Get<Button>().ButtonClicked += OnButtonClicked;
+           QuitButton.Get<Button>().ButtonClicked += OnButtonClickedQuit;
         }
-        
+        private void OnButtonClickedQuit(Button button){
+            
+            
+
+        }
+        private void OnButtonClicked(Button button)
+        {
+            sceneManager.LoadScene();
+             Debug.Log("Clicked: " + button.Text);
+        }
         /// <inheritdoc/>
         public override void OnEnable()
         {

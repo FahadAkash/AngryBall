@@ -53,12 +53,6 @@
         <member name="M:Game.GravityHandler.OnUpdate">
             <inheritdoc/>
         </member>
-        <member name="T:Game.inputs">
-            <summary>
-            inputs Script.
-            </summary>
-            
-        </member>
         <member name="F:Game.inputs.Speed">
             <inheritdoc/>
             
@@ -70,6 +64,23 @@
             <inheritdoc/>
         </member>
         <member name="M:Game.inputs.OnUpdate">
+            <inheritdoc/>
+        </member>
+        <member name="T:Game.MenuManager">
+            <summary>
+            MenuManager Script.
+            </summary>
+        </member>
+        <member name="M:Game.MenuManager.OnStart">
+            <inheritdoc/>
+        </member>
+        <member name="M:Game.MenuManager.OnEnable">
+            <inheritdoc/>
+        </member>
+        <member name="M:Game.MenuManager.OnDisable">
+            <inheritdoc/>
+        </member>
+        <member name="M:Game.MenuManager.OnUpdate">
             <inheritdoc/>
         </member>
         <member name="T:Game.movement">
